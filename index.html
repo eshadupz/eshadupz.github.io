@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+</head>
+<body>
+
+<h1>Polar Coordinate System</h1>
+<h2> By Esha Dupuguntla </h2>
+
+<p> This website will help you better understand everything about the Polar Coordinate System, and what the difference is between the Polar and Rectangular System. </p>
+<fieldset>
+<h3>What is the Polar Coordinate System?</h3>
+<p1>The Polar Coordinate System is a type of Coordinate system that consists of polar coordinates, AKA coordinates that look like this: (r, θ).
+It allows us to think of a point on a plane as a distance r from the origin and an angle θ from an initial axis.
+In this system, the origin is referred to as the pole,
+and the initial axis is called the polar axis.  </p1> </fieldset>
+<center> <img src="image1math.png" alt="Polar Axis"> </center>
+
+<fieldset>
+<h3>What is the Rectangular Coordinate System?</h3>
+<p>The Rectangular Coordinate System, also known as the Cartesian Coordinate System, consists of rectangular coordinates that look like this: (x,y). We use the Cartesian plane to plot points and lines,
+  and visualize various algebraic relationships.
+  The Rectangular Coordinate System has a horizontal x axis and a vertical y axis.
+  To plot a point you start at the origin, travel a horizontal x distance using the x axis, then travel along the y axis a distance of y to get to your point (x,y). </fieldset>
+<center> <img src="mathimage2.png" alt="Rectangular"> </center>
+<fieldset>
+<h3> Coordinate Conversion </h3>
+<p> To visualize the relationship between polar and rectangular coordinates, imagine that the polar axis is the same as the positive x axis and
+  that the pole is the same as the origin. Now, visualize a point (x,y) on a circle with radius r. Looking at the image below, you can see that x,y, and r all form a right triangle in which r is the hypotenuse.
+  Using the Pythagorean Theorem, we can form the equation x^2+y^2=r^2. Basic trigonometry is used to establish the relationship between polar and rectangular coordinates.
+</p> </fieldset>
+<center> <img src="mathimage3.ppm" alt="Relationship"> </center>
+<fieldset> <h4> Formulas for Coordinate Conversion: </h4>
+<p> 1. x = rcosθ; y = rsinθ </p>
+<p> 2. tanθ = y/x; r^2=x^2 + y^2 </fieldset>
+<h4>    </h4>
+<h6> Polar to Rectangular Conversion: </h6>
+<p> Question: Convert this point into rectangular coordinates: (2, 𝛑) </p>
+<p>Solution: First, use the formula x=rcosθ to find the rectangular x coordinate: x = rcosθ = 2cos𝛑 = -2 </p>
+<p> Now you have the x coordinate. Then, use y = rsinθ as such: y = rsinθ = 2sin𝛑 = 0 </p>
+<p> That's it! You have converted (2, 𝛑) into the rectangular coordinate (-2,0). But how do you convert from rectangular to polar? Let's find out!</p>
+
+<h6> Rectangular to Polar Conversion: </h6>
+<p> Question: Convert this point into polar coordinates: (-1,1) </p>
+<p>Solution: Use tanθ = y/x to solve for θ: tanθ = 1/-1 = -1
+<p>Now, use inverse tangent to solve for theta: θ = 3𝛑/4 or 7𝛑/4. Eliminate 7𝛑/4 because we want the angle to be in the second quadrant since that's where our Rectangular
+  coordinate is. So,  θ = 3𝛑/4. </p>
+<p> Now, use the equation x^2+ y^2=r^2 and solve for r: r^2=(-1^2)+(1)^2, r=√2 </p>
+<p> You have converted your coordinate from (-1,1) to (√2,3𝛑/4). </p>
+
+<fieldset>
+<h3> Equation Conversion </h3>
+<p> To convert equations, you can use the trig formulas given for coordinate conversion. </p> </fieldset>
+<h4>       </h4>
+<h6> Polar Equations to Rectangular Form: </h6>
+<p> Question: r = 2 </p>
+<p> Solution: Using x^2+ y^2=r^2, you can convert r=2 into a rectangular equation as such: r =2 => r^2 = 2^2 = x^2+y^2=2^2 </p>
+<h6> Rectangular to Polar Equations:  </h6>
+<p> Question: y = x^2 </p>
+<p> Solution: Use the trig relationships already established:
+    y = x^2 => rsinθ = (rcosθ)^2 => r=secθtanθ </p>
+<p> You have converted your equation from y = x^2 to r=secθtanθ. </p>
+
+
+
+<style>
+body {
+  font-family: serif;
+}
+h1 {
+  text-align: center;
+  background-color: violet;
+  text-decoration: underline;
+}
+h2 {
+  text-align: center;
+  font-weight: lighter;
+}
+p{
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+  fieldset {
+    background-color: #aaf0d1;
+    border-color: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.01em;
+    padding-bottom: 0.63em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+  }
+
+h6 {
+  background-color: violet;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+
+
+</body>
+</html>
